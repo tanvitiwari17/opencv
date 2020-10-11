@@ -16,6 +16,12 @@ def face_extractor(img):
     faces = face_classifier.detectMultiScale(gray,1.3,5)
     
     if faces is():
+        return None
+    
+    for (x,y,w,h) in faces:
+        cropped_face = img[y:y+h,x:x+w]
+        
+    return cropped_face
     
     
     
