@@ -59,7 +59,7 @@ while True:
         
         # saving values
         
-        file_name_path = 'E:/pyWork/pyProjects/opencv/opencv/face_recog/user' + str(count)+ '.jpg'
+        file_name_path = 'E:/pyWork/pyProjects/opencv/face_recog/user' + str(count)+ '.jpg'
         cv2.imwrite(file_name_path,face)
     
         # counter : putText(where,count,position pointer, font,font scale,RGB color,thickness)
