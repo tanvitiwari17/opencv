@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['color_filtering_bitwise_webcam.py', 'color_trackbar.py', 'mouse_callback_event.py', 'image_sharpening.py', 'Facial_Recognition_System.py']
+recent_files = ['Facial_Recognition_System.py', 'Facial_Recognition_System_2.py']
 
